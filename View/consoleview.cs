@@ -8,7 +8,6 @@ namespace ServerApp.Views
         {
             Console.WriteLine(msg);
         }
-
         public string GetUserInput(string prompt)
         {
             Console.Write(prompt);

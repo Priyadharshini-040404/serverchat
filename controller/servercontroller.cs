@@ -50,7 +50,6 @@ namespace ServerApp.Controllers
                     _view.ShowMessage("Client disconnected.");
                     break;
                 }
-
                 _view.ShowMessage($"\nClient: {received}");
                 string reply = _view.GetUserInput("Server: ");
                 _model.SendMessage(reply);

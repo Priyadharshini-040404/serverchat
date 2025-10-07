@@ -67,7 +67,6 @@ namespace ServerApp.Models
                 Console.WriteLine($"[Model Error] Send failed: {ex.Message}");
             }
         }
-
         public void Stop()
         {
             _stream?.Close();
