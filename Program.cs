@@ -8,7 +8,7 @@ namespace ServerApp
     {
         static void Main()
         {
-            string ip = "10.74.229.56";  // Change to your local IP
+            string ip = "127.0.0.1";  // Change to your local IP
             int port = 8888;
 
             ChatModel model = new ChatModel();
